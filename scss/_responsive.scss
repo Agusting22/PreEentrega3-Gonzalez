@@ -1,0 +1,87 @@
+/* ***************** */
+
+/* Responsive */
+@media (max-width: 1023px) {
+    /* header */
+
+    .encabezado {
+        height: auto;
+        flex-direction: column;
+        text-align: center;
+
+        .boton {
+            display: none;
+        }
+    }
+
+    /* banner */
+
+    .bannerContenido p {
+        font-size: 2.5rem;
+    }
+
+    /* destino */
+
+    .destinos {
+        margin: 5vh;
+        font-size: 2rem;
+
+        h3,
+        p {
+            font-size: inherit;
+        }
+    }
+
+    .contenedorDestinos {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    /* los guias */
+
+    .contenedorGuias {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .formcontacto {
+        width: 80vw;
+    }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+    /* destinos */
+
+    .contenedorDestinos {
+        grid-template-columns: 1fr;
+    }
+
+    .formcontacto {
+        width: 95vw;
+    }
+}
+
+/* Responsive de destinos */
+@media (max-width: 768px) {
+    .containerr {
+        max-width: 90%;
+        margin: 20px;
+        padding: 30px;
+    }
+
+    .imgs {
+        width: 100%;
+    }
+}
+
+@media (max-width: 1023px) {
+    .containerr {
+        max-width: 90%;
+        margin: 50px;
+        padding: 30px;
+    }
+
+    .imgs {
+        width: 70vh;
+    }
+}

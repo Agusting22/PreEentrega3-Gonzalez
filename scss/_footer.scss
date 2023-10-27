@@ -1,0 +1,23 @@
+/* el footer */
+
+.footer {
+    background-color: #212121;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.footerContenido {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.infoContacto {
+    text-decoration: none;
+}
+
+.footer i {
+    margin-right: 10px;
+}
